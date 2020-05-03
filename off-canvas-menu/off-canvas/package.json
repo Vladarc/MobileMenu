@@ -1,0 +1,21 @@
+{
+  "name": "gulp-configs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp watch"
+  },
+  "author": "Vlad Mironets",
+  "license": "ISC",
+  "dependencies": {
+    "intl-tel-input":"16.0.15",
+    "autoprefixer": "^9.7.6",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+    
+  }
+}

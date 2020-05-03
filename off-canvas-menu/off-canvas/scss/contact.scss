@@ -1,0 +1,112 @@
+
+.section__contact{
+padding: 10px;
+margin-bottom: 50px;
+}
+.contact__head{
+    &-title{
+text-align: center;
+font-size: 9rem;
+font-weight: 700;
+margin: 80px 0 30px;
+line-height: .8;
+padding: 0 10px;
+
+    }
+    &-description{
+ 
+text-align: center;
+font-size: 1.7rem;
+line-height: 1.4;
+color: #262626;
+padding: .2em 24em 1.8em ;
+
+    }
+}
+.contact-form { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    .contact{ 
+    margin-bottom: 10px;
+    width: 100%;
+    }
+    .contact__field{ 
+    border: 0;
+    outline: none;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 1.5rem;
+    max-width: 490px;
+    width: 100%;
+    color: #fff;
+    }
+    .contact__field--input{
+    padding: 15px 5px  15px 15px;
+    }
+    .contact__field--text-area{
+    height: 250px;
+    resize: none;
+    padding: 15px 20px 5px 15px;
+    
+    }
+    .contact__field--color{
+    background-color:rgba(0, 196, 196, 0.5) ;
+    }
+    .contact__field--input:focus,
+    .contact__field--text-area:focus{
+    background-color:rgba(0, 196, 196, 1) ;
+    border-left: 5px solid #355b82;
+    transition: all .3s ease-out;
+    }
+    .contact__field--text-area::placeholder,
+    .contact__field--input::placeholder{
+    color:rgba(255, 255, 255, .7);
+    font-weight: 300;
+    }
+    
+    input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0 50px rgba(0, 196, 196, 1) !important; 
+    -webkit-text-fill-color: #fff;
+    }
+    .contacts {
+    
+    padding: 10px 5px;
+    }
+    .contacts__list {
+    margin-bottom: 15px;
+    }
+    
+    .contacts__list-title {  
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.4;
+    }
+    .contacts__list-description{
+    font-size: 2rem;
+    }
+    .footer{
+    background-color: #262626;
+    padding: 30px 15px;
+    }
+    .footer__inner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .footer__inner-list{
+    font-size: 1.5rem;
+    color: #b9b9b9;
+    }
+    .text-pink,
+    .text-pink--bold{
+    color: #ff2b58;
+    font-weight: 700;
+    }
+    input:focus::placeholder,
+    textarea:focus::placeholder{
+    color: transparent;
+    }

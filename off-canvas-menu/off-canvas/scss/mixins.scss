@@ -1,0 +1,5 @@
+@mixin flexElBeetween($jC:space-between,$wrap:wrap){
+    display: flex;
+    justify-content: $jC;
+    flex-wrap: $wrap;
+}
