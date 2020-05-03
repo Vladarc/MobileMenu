@@ -1,0 +1,23 @@
+.iti__flag {
+background-image: url("../img/flags.png");
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+.iti__flag {background-image: url("../img/flags.png");}
+}
+.iti__country-list{
+max-width: 490px;
+overflow-x: hidden;
+overflow-y: scroll;
+}
+.iti{
+max-width: 490px;
+width: 100%;
+}
+.iti--separate-dial-code 
+.iti__selected-flag{
+background: transparent;
+padding-right: 5px;
+outline: none;
+font-family: 'Times New Roman', Times, serif;
+
+}

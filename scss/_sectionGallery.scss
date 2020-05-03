@@ -1,0 +1,63 @@
+$bgcolor:#ffe92f;
+$btncolor:#5585a2;
+$textcolor:#262626;
+
+.section--gallery{
+    background-color:$bgcolor ;
+}
+
+.gallery{
+    &-title,&-subtitle{
+        text-align: center;
+        color: $textcolor;
+    }
+    &-title{
+        font-size: 9rem;
+        font-weight: 700;
+        margin: 0;
+    }
+    &-subtitle{
+        font-size: 1.7rem;
+        font-weight: 300;
+        margin: 30px 0;
+        padding: 0 25%;
+    }
+}
+
+.card{
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.5);
+    
+    &:hover{
+        
+        box-shadow:0px 2px 18px 0px rgba(50, 50, 50, 0.75);
+        transition: box-shadow .3s ease-in;
+    }
+
+ &__wrap{
+     position: relative;
+     overflow: hidden;
+     padding-top: 71.333%;
+    &--small {
+    padding-top: 70.333%;
+
+  }
+  &--medium{
+    padding-top: 69.333%;
+    
+
+  }
+    }
+&__img{
+    height: 100%;
+     width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+}
+.section__margin{
+    margin-bottom: 30px;
+}
